@@ -43,6 +43,7 @@ body {
 }
 
 #menu ul {
+	min-width: 500px;
 	position: relative;
 	float: left;
 	left: 50%;
