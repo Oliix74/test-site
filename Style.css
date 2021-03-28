@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'goboldblocky';
+	src: url('Gobold-Blocky-Regular-WebFont.woff');
+	src: url('Gobold-Blocky-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url('Roboto-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	background-color: #1b262c;
+}
+
+
+#banner1 {
+	display: block;
+	background-color: #1b262c;
+	height: 110px;
+	width: 100%;
+}
+
+#banner1 h1 {
+	position: relative;
+	font-family: 'roboto';
+	padding-top: -60px;
+	left: 41.5%;
+	color: #f0f5f9;
+	font-size: 3em;
+}
+
+#menu {
+	width: 100%;
+	height: 110px;
+	position: relative;
+	background-color: #3282b8;
+}
+
+#menu ul {
+	position: relative;
+	float: left;
+	left: 50%;
+	padding-top: 5px;
+	margin-left: -60px;
+}
+
+#menu ul li {
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+
+}
+
+#menu ul li a {
+	font-family: 'roboto';
+	text-align: center;
+	padding-top: 25px;
+	display: inline-block;
+	height: 40px;
+	width: 150px;
+	color: #222831;
+	text-decoration: none;
+	font-size: 1.6em;
+}
+
+#menu ul li a:hover {
+	color: #f0f5f9;
+	font-size: 1.7em;
+}
+
+#banner2 {
+	display: block;
+	background-color: #1b262c;
+	height: 20px;
+	width: 100%;
+}
+
+#contenuPrincipal p {
+	position: relative;
+	display: block;
+	width: 1000px;
+	margin: auto;
+	font-size: 1.2em;
+	color: #f0f5f9;
+	font-family: 'roboto';
+}
+
+#footer {
+	height: 80px;
+	width: 100%;
+	background-color: #3282b8;
+}
+
+#footer p {
+	font-size: 1.3em;
+	position: relative;
+	font-family: 'roboto';
+	padding-top: 19px;
+	left: 10%;
+	color: #f0f5f9;
+}
+
+.move {
+    animation-duration: 2s;
+    animation-name: glissement;
+    animation-iteration-count: 1;
+  }
+  
+  .arret {
+    animation-play-state: paused;
+  }
+  
+  .encours {
+    animation-play-state: running;
+  }     
+  
+  @keyframes glissement {
+    from {
+      margin-right: 100%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+.move2 {
+    animation-duration: 2s;
+    animation-name: glissement2;
+    animation-iteration-count: 1;
+  }
+  
+  .arret2 {
+    animation-play-state: paused;
+  }
+  
+  .encours2 {
+    animation-play-state: running;
+  }     
+  
+  @keyframes glissement2 {
+    from {
+      margin-left: 100%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
